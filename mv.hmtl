@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieKH</title>
+    <link rel="stylesheet" href="./mv.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <img src="./bro-khong.jpg" alt="MovieKH Logo" class="logo">
+        <h1>MovieKH By Bro Khong</h1> 
+            <nav>
+                <ul class="top-menu">
+                    <li class="dropdown">
+                        <a href="./mv.html">Home</a>
+                        <!-- <ul class="dropdown-menu">
+                            <li><a href="./mv.html">Home</a></li>
+                        </ul> -->
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Old Movies</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="./video1.html">
+                                    <img src="./img1.jpg" alt="Movie 1">
+                                    Movie 1
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./video2.html">
+                                    <img src="./img2.jpg" alt="Movie 2">
+                                    Movie 2
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./img3.jpg" alt="Movie 3">
+                                    Movie 3
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./img4.jpg" alt="Movie 4">
+                                    Movie 4
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./img5.jpg" alt="Movie 5">
+                                    Movie 5
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">New Movies</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#">
+                                    <img src="./img6.jpg" alt="Movie 6">
+                                    Movie 6
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Menu MovieKH</a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="./video1.html">
+                                    <img src="./img1.jpg" alt="Movie 1">
+                                    Movie 1
+                                </a>
+                            </li>
+                            <li>
+                                <a href="./video2.html">
+                                    <img src="./img2.jpg" alt="Movie 2">
+                                    Movie 2
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./img3.jpg" alt="Movie 3">
+                                    Movie 3
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./img4.jpg" alt="Movie 4">
+                                    Movie 4
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./img5.jpg" alt="Movie 5">
+                                    Movie 5
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="./img6.jpg" alt="Movie 6">
+                                    Movie 6
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- Search Form -->
+                    <form class="searchT" id="searchForm" class="search-form">
+                        <input type="text" id="searchInput" placeholder="Search movies...">
+                        <button type="submit">Search</button>
+                    </form>
+                </ul>
+            </nav>            
+    </header>
+
+    <!-- Movies Section -->
+    <section class="movie-list">
+        <h2>Latest Movies</h2>
+        <div class="movies">
+            <div class="movie">
+                <a href="./video1.html">
+                    <img src="./img1.jpg" alt="Movie 1">
+                    <h3>គ្រូសង្ហាបណ្តេញខ្មោច</h3>
+                    <p>រឿងខ្មោចចិន</p>
+                    <button class="watch-btn" onclick="openNewPageWithVideo1()">Watch Now</button>
+                </a>
+            </div>
+            <div class="movie">
+                <a href="./video2.html">
+                    <img src="./img2.jpg" alt="Movie 2">
+                    <h3>សិង្ហញីលាក់ក្រចក</h3>
+                    <p>រឿងភាគថៃ</p>
+                    <button class="watch-btn" onclick="openNewPageWithVideo2()">Watch Now</button>
+                </a>
+            </div>
+            <div class="movie">
+                <a href="./video3.html">
+                    <img src="./img3.jpg" alt="Movie 3">
+                    <h3>នាងវីណា</h3>
+                    <p>រឿងខ្មោចឥណ្ដូនេស៊ី</p>
+                    <button class="watch-btn" onclick="openNewPageWithVideo1()">Watch Now</button>
+                </a>
+            </div>
+            <div class="movie">
+                <a href="./video4.html">
+                    <img src="./img4.jpg" alt="Movie 4">
+                    <h3>ព្រាយតោងធ្នឹម</h3>
+                    <p>រឿងខ្មោចខ្មែរ</p>
+                    <button class="watch-btn" onclick="openNewPageWithVideo1()">Watch Now</button>
+                </a>
+            </div>
+            <div class="movie">
+                <a href="./video5.html">
+                    <img src="./img5.jpg" alt="Movie 5">
+                    <h3>រឿងស៊ុនអ៊ូខុង</h3>
+                    <p>រឿងភាគចិន</p>
+                    <button class="watch-btn" onclick="openNewPageWithVideo1()">Watch Now</button>
+                </a>
+            </div>
+            <div class="movie">
+                <a href="./video6.html">
+                    <img src="./img6.jpg" alt="Movie 6">
+                    <h3>មហិទ្ធិរិទ្ធថ្មសិលាទេព</h3>
+                    <p>រឿងភាគចិន</p>
+                    <button class="watch-btn" onclick="openNewPageWithVideo1()">Watch Now</button>
+                </a>
+            </div>
+        </div>     
+    </div>
+    </section>
+    </section>    
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 MovieKH. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
